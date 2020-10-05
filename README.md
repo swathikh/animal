@@ -2,7 +2,13 @@
 
 The game from my childhood.
 
-Rewrite from BASIC GOTO-Hell into JavaScript CallBack-hell
+Rewrite from BASIC to few other languages: JS, Ruby, Python, Go.
+
+To run JS version:
+
+```sh
+npx github:drom/animal
+```
 
 http://pdp-11.trailing-edge.com/rsts11/rsts-11-013/ANIMAL.BAS
 
