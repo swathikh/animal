@@ -3,15 +3,13 @@
   "version": "0.0.2",
   "description": "Animal game",
   "main": "index.js",
-  "bin": {
-    "animal": "animal.js"
-  },
   "scripts": {
-    "test": "eslint animal.js && ./animal.js < test/test.txt"
+    "test": "eslint animal.js && istanbul cover animal.js < test/test.txt"
   },
   "author": "drom",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4"
+    "eslint": "^1.5.1",
+    "istanbul": "^0.3.21"
   }
 }
